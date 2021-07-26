@@ -34,12 +34,28 @@
                     <img src="assets/demo.png" alt="Demonstração" id='demo'>
                 </div>
             </div>
-            <div class="card-container fixed">
+            <div class="card-container fixed-right">
                 <div id="content">
                     <h3>assine já e fique informado de forma descontraída e de qualidade!</h3>
                     <form id="form">
-                    <input type="text" placeholder="nome" id="nome">
-                    <input type="text" placeholder="email" id="email">
+                    <input type="text" placeholder="nome" id="nome" required>
+                    <input type="text" placeholder="email" id="email" required>
+                    <input type="text" placeholder="cpf" id="cpf" required>
+                    <input type="text" placeholder="telefone" id="telefone" required>
+                    <input type="text" placeholder="endereço" id="endereco" required>
+                    <input type="submit" value="Cadastrar" id='bot'>
+                    </form>
+                </div>
+            </div>
+            <div class="card-container fixed-left">
+                <div id="content2">
+                    <h3>Anuncie seu produto no the news</h3>
+                    <form id="form2">
+                    <input type="text" placeholder="nome" id="nomeP">
+                    <input type="text" placeholder="slogan" id="slogan">
+                    <input type="text" placeholder="% do cupom" id="cupom">
+                    <input type="email" placeholder="email para contato" id="emailP">
+                    <input type="text" placeholder="observacoes" id="observacoes">
                     <input type="submit" value="Cadastrar" id='bot'>
                     </form>
                 </div>
